@@ -1,0 +1,10 @@
+INSERT INTO Patient (PatientFName, PatientSName, PatientEmail, PatientPwd, PatientPostcode, PatientCode) VALUES 
+('Alan', 'Rutherford', 'alan@patienttrack.com', 'asdf', 'CR06AW', 'ra123');
+
+INSERT INTO CARER (CarerFName, CarerSName, CarerEmail, CarerPwd) VALUES 
+('Jarvis', 'Henderson', 'jarvis@patienttrack.com', 'asdf'),
+('Sara', 'Rutherford', 'sara@patienttrack.com', 'asdf');
+
+INSERT INTO CarerPatient (CarerID, PatientID) VALUES 
+(1,1), 
+(2,1);

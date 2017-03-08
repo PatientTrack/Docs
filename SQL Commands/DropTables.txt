@@ -1,0 +1,4 @@
+DROP TABLE Location;
+DROP TABLE CarerPatient;
+DROP TABLE Carer;
+DROP TABLE Patient;
